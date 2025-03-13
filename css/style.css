@@ -1,0 +1,88 @@
+:root{
+    --color1: #1E202B;
+    --color2: #009AD8;
+    --color3: #323544;
+}
+
+p,span,.date{
+    color: #bfc1c8 ;
+    margin: 0;
+}
+body{
+    background-color: var(--color3);
+}
+
+.navbar{
+    background-color: var(--color1);
+}
+
+.nav-link{
+    color: white !important;
+    cursor: pointer;
+}
+
+.nav-item:hover a{
+    color: var(--color2) !important;
+}
+
+.active{
+    color: var(--color2) !important;
+}
+
+input{
+    background-color: var(--color1) !important;
+    outline: none !important;
+    border: none !important;
+}
+
+input::placeholder{
+    color: gray !important;
+}
+
+main{
+    position: relative;
+}
+.background{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-color: var(--color1);
+}
+.col-color1{
+    background-color: var(--color3);
+}
+.col-color2{
+    background-color: #262936;
+}
+.date-color1{
+    background-color: #2D303D;
+}
+.date-color2{
+    background-color: #222530;
+}
+.degree{
+    padding: 20px ;
+}
+.temp{
+    font-size: 5rem;
+    color: white;
+}
+.cast{
+    color: var(--color2);
+}
+footer{
+    background-color: var(--color3);
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: var(--color1);
+}
+.icon{
+    color: var(--color2) !important;
+    transition: all 0.3s;
+}
+.icon:hover{
+    background-color: var(--color2);
+    cursor: pointer;
+    color: white !important;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg nav-underline navbar-dark ">
+    <div class="container-fluid me-5">
+      <a class="navbar-brand p-4 fw-bold" href="#"> <img src="images/logo.png" alt="logo" class="pe-1"> Weather</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav  ms-auto p-4 mb-2 mb-lg-0">
+          <li class="nav-item  px-4">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link">News</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" >Live cameras</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" >Photos</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link ">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="background py-5">
+      <div class="container">
+        <div class="my-5 input-group">
+          <input type="text" id="locationInput"  class="form-control p-3 rounded-5  text-white"
+            placeholder="Find your location..."> 
+        </div>
+        <div class="dashboard rounded-3 d-md-grid overflow-hidden d-lg-flex text-white ">
+          <div id="today" class="col text-center text-lg-start col-color1 ">
+
+          </div>
+          <div class="col forecastDay col-color2 text-center">
+            <div class="date date-color2 p-2">Wednesday</div>
+            <div class="degree">
+              <p class="fs-4 fw-semibold text-white pt-4 pb-1">29oC</p>
+              <p class="pb-3">18oC</p>
+              <p class="cast ">Sunny</p>
+            </div>
+          </div>
+          <div class="col forecastDay col-color1 text-center">
+            <div class="date date-color1 p-2">Wednesday</div>
+            <div class="degree">
+              <p class="fs-4 fw-semibold text-white">29oC</p>
+              <p class=" ">18oC</p>
+              <p class="cast">Sunny</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="pb-5">
+    <div class="container">
+    <div class="subscribe d-md-grid d-lg-flex align-items-center">
+      <div class="my-5 input-group ">
+        <input type="text" class="form-control p-3 rounded-5"
+          placeholder="Find your location..."></input>
+      </div>
+      <div class="socials d-flex ms-sm-5">
+        <div class="icon d-flex mx-1 justify-content-center align-items-center rounded-circle"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="icon d-flex mx-1 justify-content-center align-items-center rounded-circle"><i class="fa-brands fa-x-twitter"></i></div>
+        <div class="icon d-flex mx-1 justify-content-center align-items-center rounded-circle"><i class="fa-brands fa-google-plus-g"></i></div>
+        <div class="icon d-flex mx-1 justify-content-center align-items-center rounded-circle"><i class="fa-brands fa-pinterest"></i></div>
+      </div>
+    </div>
+    <p class="fs-5">Created and Designed by <a href="https://www.linkedin.com/in/ahmed-abdelnasser-484159241/" target="_blank" class="text-info text-decoration-none fw-semibold fst-italic"> Ahmed AbdElnasser</a></p>
+  </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/14d6c58e3f.js" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
