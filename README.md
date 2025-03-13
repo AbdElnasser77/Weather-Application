@@ -20,7 +20,7 @@
 
 ### Links
 
-- Live Site URL: [](https://abdelnasser77.github.io/Weather-Application/)
+- [DEMO](https://abdelnasser77.github.io/Weather-Application/)
 
 ### Built with
 
